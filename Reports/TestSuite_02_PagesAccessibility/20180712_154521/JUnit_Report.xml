@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_02_PagesAccessibility" time="157" tests="16" failures="1" errors="0">
+   <testsuite name="TestSuite_02_PagesAccessibility" tests="16" failures="1" errors="0" time="157" timestamp="2018-07-12 15:45:23" hostname="KHilmi - MYPEN02ITSN044.kerrylogistics.com" id="Test Suites/TestSuite_02_PagesAccessibility">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_02_PagesAccessibility\\20180712_154521"/>
+         <property name="logFiles" value="C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_02_PagesAccessibility\\20180712_154521\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_02_PagesAccessibility\\20180712_154521\\1531381565276.png"/>
+         <property name="hostName" value="KHilmi - MYPEN02ITSN044.kerrylogistics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.27.8.136"/>
+         <property name="sessionId" value="39800246c1ed4e718129c9e31b565d8b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC06_VerifyAssetPage" classname="Test Cases/TC06_VerifyAssetPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:45:23 - [TEST_CASE][PASSED] - Test Cases/TC06_VerifyAssetPage: Test Cases/TC06_VerifyAssetPage
+
+2018-07-12 15:45:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:45:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:45:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:28 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:28 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:28 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:28 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Asset' is clicked on
+
+2018-07-12 15:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Asset' is clicked on
+
+2018-07-12 15:45:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset' is present
+
+2018-07-12 15:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset' is present
+
+2018-07-12 15:45:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:45:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC07_VerifyApprovalPage" classname="Test Cases/TC07_VerifyApprovalPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:45:34 - [TEST_CASE][PASSED] - Test Cases/TC07_VerifyApprovalPage: Test Cases/TC07_VerifyApprovalPage
+
+2018-07-12 15:45:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:45:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:45:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:37 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:37 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:37 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:37 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/span_Approvals' is clicked on
+
+2018-07-12 15:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/span_Approvals' is clicked on
+
+2018-07-12 15:45:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Approvals' is present
+
+2018-07-12 15:45:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:42 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Approvals' is present
+
+2018-07-12 15:45:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:45:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC08_VerifyAssetRequestPage" classname="Test Cases/TC08_VerifyAssetRequestPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:45:42 - [TEST_CASE][PASSED] - Test Cases/TC08_VerifyAssetRequestPage: Test Cases/TC08_VerifyAssetRequestPage
+
+2018-07-12 15:45:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:45:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:45:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:45 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:46 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:46 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:46 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Request' is clicked on
+
+2018-07-12 15:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Request' is clicked on
+
+2018-07-12 15:45:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Request' is clicked on
+
+2018-07-12 15:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Request' is clicked on
+
+2018-07-12 15:45:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' is present
+
+2018-07-12 15:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:50 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' is present
+
+2018-07-12 15:45:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:45:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC09_VerifyAssetTransferPage" classname="Test Cases/TC09_VerifyAssetTransferPage" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found"/>
+         <system-out><![CDATA[2018-07-12 15:45:51 - [TEST_CASE][FAILED] - Test Cases/TC09_VerifyAssetTransferPage: Test Cases/TC09_VerifyAssetTransferPage FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found
+
+2018-07-12 15:45:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:45:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:45:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:45:54 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:55 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:45:55 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:55 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:45:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Request' is clicked on
+
+2018-07-12 15:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Request' is clicked on
+
+2018-07-12 15:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Transfer' is clicked on
+
+2018-07-12 15:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Transfer' is clicked on
+
+2018-07-12 15:45:59 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found
+
+2018-07-12 15:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:05 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found
+[[ATTACHMENT|C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_02_PagesAccessibility\\20180712_154521\\1531381565276.png]]
+
+2018-07-12 15:46:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-07-12 15:45:51 - [TEST_CASE][FAILED] - Test Cases/TC09_VerifyAssetTransferPage: Test Cases/TC09_VerifyAssetTransferPage FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC10_VerifySettingUserPage" classname="Test Cases/TC10_VerifySettingUserPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:06 - [TEST_CASE][PASSED] - Test Cases/TC10_VerifySettingUserPage: Test Cases/TC10_VerifySettingUserPage
+
+2018-07-12 15:46:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:46:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:46:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:09 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:09 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:09 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:09 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ User' is clicked on
+
+2018-07-12 15:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ User' is clicked on
+
+2018-07-12 15:46:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_User Management' is present
+
+2018-07-12 15:46:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:14 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_User Management' is present
+
+2018-07-12 15:46:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC11_VerifySettingUserRolePage" classname="Test Cases/TC11_VerifySettingUserRolePage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:14 - [TEST_CASE][PASSED] - Test Cases/TC11_VerifySettingUserRolePage: Test Cases/TC11_VerifySettingUserRolePage
+
+2018-07-12 15:46:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:46:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:46:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:18 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:18 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:18 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:18 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ User Role' is clicked on
+
+2018-07-12 15:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ User Role' is clicked on
+
+2018-07-12 15:46:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_User Role' is present
+
+2018-07-12 15:46:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_User Role' is present
+
+2018-07-12 15:46:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC12_VerifySettingPermissionCodePage" classname="Test Cases/TC12_VerifySettingPermissionCodePage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:23 - [TEST_CASE][PASSED] - Test Cases/TC12_VerifySettingPermissionCodePage: Test Cases/TC12_VerifySettingPermissionCodePage
+
+2018-07-12 15:46:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:46:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:46:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:26 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:27 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:27 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:27 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Permission Code' is clicked on
+
+2018-07-12 15:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Permission Code' is clicked on
+
+2018-07-12 15:46:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Permission' is present
+
+2018-07-12 15:46:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Permission' is present
+
+2018-07-12 15:46:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC13_VerifySettingListOfValuePage" classname="Test Cases/TC13_VerifySettingListOfValuePage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:32 - [TEST_CASE][PASSED] - Test Cases/TC13_VerifySettingListOfValuePage: Test Cases/TC13_VerifySettingListOfValuePage
+
+2018-07-12 15:46:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:46:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:46:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:35 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:35 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:35 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:36 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ List of Value' is clicked on
+
+2018-07-12 15:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ List of Value' is clicked on
+
+2018-07-12 15:46:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_List Of Value' is present
+
+2018-07-12 15:46:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:40 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_List Of Value' is present
+
+2018-07-12 15:46:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC14_VerifySettingStatusPage" classname="Test Cases/TC14_VerifySettingStatusPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:41 - [TEST_CASE][PASSED] - Test Cases/TC14_VerifySettingStatusPage: Test Cases/TC14_VerifySettingStatusPage
+
+2018-07-12 15:46:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:46:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:46:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:44 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:44 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:44 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:44 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Status' is clicked on
+
+2018-07-12 15:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Status' is clicked on
+
+2018-07-12 15:46:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Status' is present
+
+2018-07-12 15:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Status' is present
+
+2018-07-12 15:46:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC15_VerifySettingDCPage" classname="Test Cases/TC15_VerifySettingDCPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:50 - [TEST_CASE][PASSED] - Test Cases/TC15_VerifySettingDCPage: Test Cases/TC15_VerifySettingDCPage
+
+2018-07-12 15:46:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:46:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:46:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:46:53 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:53 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:46:53 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:53 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:46:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:46:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:46:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:46:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:46:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ DC' is clicked on
+
+2018-07-12 15:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ DC' is clicked on
+
+2018-07-12 15:46:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_DC' is present
+
+2018-07-12 15:46:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_DC' is present
+
+2018-07-12 15:46:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:46:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC16_VerifySettingDepartmentPage" classname="Test Cases/TC16_VerifySettingDepartmentPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:46:58 - [TEST_CASE][PASSED] - Test Cases/TC16_VerifySettingDepartmentPage: Test Cases/TC16_VerifySettingDepartmentPage
+
+2018-07-12 15:46:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:01 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:02 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:02 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:02 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Department' is clicked on
+
+2018-07-12 15:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Department' is clicked on
+
+2018-07-12 15:47:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Department' is present
+
+2018-07-12 15:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Department' is present
+
+2018-07-12 15:47:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:47:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17_VerifySettingApprovalRoutePage" classname="Test Cases/TC17_VerifySettingApprovalRoutePage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:47:07 - [TEST_CASE][PASSED] - Test Cases/TC17_VerifySettingApprovalRoutePage: Test Cases/TC17_VerifySettingApprovalRoutePage
+
+2018-07-12 15:47:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:10 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:10 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:10 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:10 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Approval Route' is clicked on
+
+2018-07-12 15:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Approval Route' is clicked on
+
+2018-07-12 15:47:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Approval Route' is present
+
+2018-07-12 15:47:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Approval Route' is present
+
+2018-07-12 15:47:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:47:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC18_VerifySettingAssetModelPage" classname="Test Cases/TC18_VerifySettingAssetModelPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:47:16 - [TEST_CASE][PASSED] - Test Cases/TC18_VerifySettingAssetModelPage: Test Cases/TC18_VerifySettingAssetModelPage
+
+2018-07-12 15:47:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:19 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:19 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:19 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:19 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Model' is clicked on
+
+2018-07-12 15:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Model' is clicked on
+
+2018-07-12 15:47:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Model' is present
+
+2018-07-12 15:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:24 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Model' is present
+
+2018-07-12 15:47:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:47:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC19_VerifySettingVendorPage" classname="Test Cases/TC19_VerifySettingVendorPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:47:25 - [TEST_CASE][PASSED] - Test Cases/TC19_VerifySettingVendorPage: Test Cases/TC19_VerifySettingVendorPage
+
+2018-07-12 15:47:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:28 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:28 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:28 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:28 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Vendor' is clicked on
+
+2018-07-12 15:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Vendor' is clicked on
+
+2018-07-12 15:47:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Vendor' is present
+
+2018-07-12 15:47:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Vendor' is present
+
+2018-07-12 15:47:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:47:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC20_VerifySettingAreaPage" classname="Test Cases/TC20_VerifySettingAreaPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:47:34 - [TEST_CASE][PASSED] - Test Cases/TC20_VerifySettingAreaPage: Test Cases/TC20_VerifySettingAreaPage
+
+2018-07-12 15:47:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:37 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:38 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:38 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:38 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Setting' is clicked on
+
+2018-07-12 15:47:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Area' is clicked on
+
+2018-07-12 15:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Area' is clicked on
+
+2018-07-12 15:47:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Area' is present
+
+2018-07-12 15:47:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:43 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Area' is present
+
+2018-07-12 15:47:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:47:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC21_VerifySettingAssetSummaryPage" classname="Test Cases/TC21_VerifySettingAssetSummaryPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:47:43 - [TEST_CASE][PASSED] - Test Cases/TC21_VerifySettingAssetSummaryPage: Test Cases/TC21_VerifySettingAssetSummaryPage
+
+2018-07-12 15:47:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:46 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:47 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:47 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:47 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Reports' is clicked on
+
+2018-07-12 15:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Reports' is clicked on
+
+2018-07-12 15:47:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Summary' is clicked on
+
+2018-07-12 15:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Summary' is clicked on
+
+2018-07-12 15:47:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Summary' is present
+
+2018-07-12 15:47:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:51 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Summary' is present
+
+2018-07-12 15:47:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:47:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC22_VerifySettingAssetTransferSummaryPage" classname="Test Cases/TC22_VerifySettingAssetTransferSummaryPage" status="PASSED">
+         <system-out><![CDATA[2018-07-12 15:47:52 - [TEST_CASE][PASSED] - Test Cases/TC22_VerifySettingAssetTransferSummaryPage: Test Cases/TC22_VerifySettingAssetTransferSummaryPage
+
+2018-07-12 15:47:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 15:47:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 15:47:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 15:47:55 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:55 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/Login_OR/Page_Login/input_UserName'
+
+2018-07-12 15:47:55 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:55 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Login_OR/Page_Login/input_Password'
+
+2018-07-12 15:47:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 15:47:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 15:47:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:47:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 15:47:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Reports' is clicked on
+
+2018-07-12 15:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_Reports' is clicked on
+
+2018-07-12 15:47:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Transfer Summary' is clicked on
+
+2018-07-12 15:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav_OR/Page_Asset Management System/a_ Asset Transfer Summary' is clicked on
+
+2018-07-12 15:48:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Transfer Summary' is present
+
+2018-07-12 15:48:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 15:48:00 - [MESSAGE][PASSED] - Object 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Transfer Summary' is present
+
+2018-07-12 15:48:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 15:48:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 15:45:23 - [TEST_SUITE][FAILED] - TestSuite_02_PagesAccessibility: Test Cases/TC09_VerifyAssetTransferPage FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found]]></system-out>
+      <system-err><![CDATA[2018-07-12 15:45:23 - [TEST_SUITE][FAILED] - TestSuite_02_PagesAccessibility: Test Cases/TC09_VerifyAssetTransferPage FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageVerification_OR/Page_Asset Management System/h2_Asset Request' located by 'By.xpath: //h2[(text() = 'Asset Request' or . = 'Asset Request')]' not found]]></system-err>
+   </testsuite>
+</testsuites>

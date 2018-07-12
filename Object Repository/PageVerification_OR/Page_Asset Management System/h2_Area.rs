@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Area</name>
+   <tag></tag>
+   <elementGuidId>c58a501a-b6b7-4d3a-a1de-1f7317b2fe84</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Area</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;App&quot;)/div[@class=&quot;ContentContainer Dashboard&quot;]/div[@class=&quot;Content&quot;]/article[@class=&quot;Page Dashboard&quot;]/div[@class=&quot;PageContainer&quot;]/h2[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_01_LoginFunction" time="46" tests="4" failures="1" errors="0">
+   <testsuite name="TestSuite_01_LoginFunction" tests="4" failures="1" errors="0" time="46" timestamp="2018-07-12 11:17:04" hostname="KHilmi - MYPEN02ITSN044.kerrylogistics.com" id="Test Suites/TestSuite_01_LoginFunction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_01_LoginFunction\\20180712_111701"/>
+         <property name="logFiles" value="C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_01_LoginFunction\\20180712_111701\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_01_LoginFunction\\20180712_111701\\1531365469712.png"/>
+         <property name="hostName" value="KHilmi - MYPEN02ITSN044.kerrylogistics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.27.8.136"/>
+         <property name="sessionId" value="93de73ecadfcfec34167f64aa702e2b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01_LoginWithValidUsernamePassword" classname="Test Cases/TC01_LoginWithValidUsernamePassword" status="PASSED">
+         <system-out><![CDATA[2018-07-12 11:17:05 - [TEST_CASE][PASSED] - Test Cases/TC01_LoginWithValidUsernamePassword: Test Cases/TC01_LoginWithValidUsernamePassword
+
+2018-07-12 11:17:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 11:17:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 11:17:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:12 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:13 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:13 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:13 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 11:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 11:17:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC01_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 11:17:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 11:17:17 - [MESSAGE][PASSED] - Object 'Object Repository/TC01_OR/Page_Asset Management System/h2_Dashboard' is present
+
+2018-07-12 11:17:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 11:17:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_LoginWithInvalidUsernamePassword" classname="Test Cases/TC02_LoginWithInvalidUsernamePassword" status="PASSED">
+         <system-out><![CDATA[2018-07-12 11:17:19 - [TEST_CASE][PASSED] - Test Cases/TC02_LoginWithInvalidUsernamePassword: Test Cases/TC02_LoginWithInvalidUsernamePassword
+
+2018-07-12 11:17:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 11:17:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 11:17:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:23 - [TEST_STEP][PASSED] - setText: Text 'Kamarul' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:24 - [MESSAGE][PASSED] - Text 'Kamarul' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:24 - [TEST_STEP][PASSED] - setText: Text 'invalidpassword' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:24 - [MESSAGE][PASSED] - Text 'invalidpassword' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC02_OR/Page_Login/li_Invalid Login Attempt' is present
+
+2018-07-12 11:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 11:17:25 - [MESSAGE][PASSED] - Object 'Object Repository/TC02_OR/Page_Login/li_Invalid Login Attempt' is present
+
+2018-07-12 11:17:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 11:17:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_LoginWithInvalidUsernameOnly" classname="Test Cases/TC03_LoginWithInvalidUsernameOnly" status="PASSED">
+         <system-out><![CDATA[2018-07-12 11:17:26 - [TEST_CASE][PASSED] - Test Cases/TC03_LoginWithInvalidUsernameOnly: Test Cases/TC03_LoginWithInvalidUsernameOnly
+
+2018-07-12 11:17:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 11:17:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 11:17:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:30 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:31 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:31 - [TEST_STEP][PASSED] - setText: Text 'Invalidpassword' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:31 - [MESSAGE][PASSED] - Text 'Invalidpassword' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC02_OR/Page_Login/li_Invalid Login Attempt' is present
+
+2018-07-12 11:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 11:17:32 - [MESSAGE][PASSED] - Object 'Object Repository/TC02_OR/Page_Login/li_Invalid Login Attempt' is present
+
+2018-07-12 11:17:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 11:17:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_LoginWithInvalidPasswordOnly" classname="Test Cases/TC04_LoginWithInvalidPasswordOnly" status="PASSED">
+         <system-out><![CDATA[2018-07-12 11:17:33 - [TEST_CASE][PASSED] - Test Cases/TC04_LoginWithInvalidPasswordOnly: Test Cases/TC04_LoginWithInvalidPasswordOnly
+
+2018-07-12 11:17:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 11:17:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 11:17:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:37 - [TEST_STEP][PASSED] - setText: Text 'Kamarul' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:38 - [MESSAGE][PASSED] - Text 'Kamarul' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:38 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:38 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TC02_OR/Page_Login/li_Invalid Login Attempt' is present
+
+2018-07-12 11:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-07-12 11:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/TC02_OR/Page_Login/li_Invalid Login Attempt' is present
+
+2018-07-12 11:17:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 11:17:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05_LoginWithValidUsernamePasswordButFail" classname="Test Cases/TC05_LoginWithValidUsernamePasswordButFail" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-07-12 11:17:40 - [TEST_CASE][FAILED] - Test Cases/TC05_LoginWithValidUsernamePasswordButFail: Test Cases/TC05_LoginWithValidUsernamePasswordButFail FAILED because (of) Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-07-12 11:17:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 11:17:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 11:17:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:57065/account/login' successfully
+
+2018-07-12 11:17:44 - [TEST_STEP][PASSED] - setText: Text 'KHilmi' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:45 - [MESSAGE][PASSED] - Text 'KHilmi' is set on object 'Object Repository/TC01_OR/Page_Login/input_UserName'
+
+2018-07-12 11:17:45 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:45 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/TC01_OR/Page_Login/input_Password'
+
+2018-07-12 11:17:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Login/input_btn btn-primary' is clicked on
+
+2018-07-12 11:17:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 11:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_OR/Page_Asset Management System/h2_Dashboard' is clicked on
+
+2018-07-12 11:17:49 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-07-12 11:17:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TC01_OR/Page_Asset Management System/h2_MainDashboard' does not exist
+
+2018-07-12 11:17:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-07-12 11:17:50 - [MESSAGE][FAILED] - Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\KHilmi\\Katalon Studio\\AMS_TestProject\\Reports\\TestSuite_01_LoginFunction\\20180712_111701\\1531365469712.png]]
+
+2018-07-12 11:17:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 11:17:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-07-12 11:17:40 - [TEST_CASE][FAILED] - Test Cases/TC05_LoginWithValidUsernamePasswordButFail: Test Cases/TC05_LoginWithValidUsernamePasswordButFail FAILED because (of) Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 11:17:04 - [TEST_SUITE][FAILED] - TestSuite_01_LoginFunction: Test Cases/TC05_LoginWithValidUsernamePasswordButFail FAILED because (of) Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-07-12 11:17:04 - [TEST_SUITE][FAILED] - TestSuite_01_LoginFunction: Test Cases/TC05_LoginWithValidUsernamePasswordButFail FAILED because (of) Unable to verify object is present (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

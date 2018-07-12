@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_LoginWithInvalidUsernameOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e502797-594f-4b30-8c63-c45b627cb122</testCaseGuid>
+</TestCaseEntity>

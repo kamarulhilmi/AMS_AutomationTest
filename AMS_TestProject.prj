@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Test Automation for AMS Project - KES Team</description>
+   <name>AMS_TestProject</name>
+   <tag></tag>
+   <UUID>dae7fdfd-58a1-46f9-8046-817e9bbeb1fe</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
